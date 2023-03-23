@@ -1,0 +1,72 @@
+header, footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid #c0c0c0;
+  padding: 1rem;
+}
+header ul, footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  text-align: right;
+}
+header ul li, footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header ul li:last-child, footer ul li:last-child {
+  margin-right: 0;
+}
+header ul li a, footer ul li a {
+  color: #38a4ef;
+  text-decoration: none;
+}
+header ul li a:hover, footer ul li a:hover {
+  color: #333;
+}
+
+header {
+  margin-bottom: 5rem;
+}
+
+footer {
+  margin-top: 5rem;
+}
+footer ul {
+  float: initial;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  max-width: 1280px;
+  border: 1px solid #c0c0c0;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 600px;
+}
+form input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #333;
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #c0c0c0;
+}
+form button {
+  display: block;
+  padding: 1rem;
+  border: 0px;
+  background-color: #38a4ef;
+  color: #fff;
+}
+form button:hover {
+  background-color: #333;
+}
